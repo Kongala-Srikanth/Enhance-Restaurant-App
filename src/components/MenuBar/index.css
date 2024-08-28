@@ -1,0 +1,24 @@
+.each-menu-bar {
+  margin: 0px 15px;
+}
+
+.highlight-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #d65c5c;
+  border-bottom: 3px solid #d65c5c;
+  padding: 15px 0px;
+  width: 190px;
+  flex-shrink: 1;
+}
+
+.normal-text {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 0px;
+  width: 190px;
+}
+
+.menu-container {
+  overflow-y: auto;
+}

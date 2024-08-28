@@ -1,0 +1,27 @@
+.menu-bar-container {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 0px;
+  border: 1px solid #51515158;
+  box-shadow: 10px 0px 10px #51515158;
+  overflow-x: auto;
+}
+
+@media (max-width: 767px) {
+  .menu-bar-container {
+    overflow: auto;
+  }
+}
+
+.menu-bar-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.link{
+  text-decoration: none;
+  color: #000000;
+}

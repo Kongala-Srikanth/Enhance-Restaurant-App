@@ -1,0 +1,26 @@
+.dish-img-size {
+  height: 110px;
+  width: 130px;
+}
+
+.dish-name-cart {
+  font-size: 20px;
+  width: 200px;
+}
+
+.cart-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px #4545458e;
+  margin: 15px;
+  border-radius: 5px;
+  padding-right: 15px;
+  overflow: hidden;
+}
+
+.all-cart-items {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,56 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logoName {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.btn-hide {
+  border-width: 0px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cart-btn {
+  font-size: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.quantity-number {
+  color: #ffffff;
+  background-color: #ff6347;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 20%;
+  margin: 0px;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout-btn {
+  background-color: #ff6347;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 15px;
+}
